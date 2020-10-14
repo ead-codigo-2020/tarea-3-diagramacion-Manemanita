@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Lato', sans-serif;
-     background-color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
     background-image: url("antonio-martinez-z-unsplash.jpg");
 }
 header{
@@ -21,7 +21,7 @@ header{
     margin-right: auto;
 }
 .barra-superior{
-    font-family: 'lato', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     color: white;
     background: black;
@@ -29,7 +29,11 @@ header{
     text-align: center;
     display: flex;
 }
-
+.logo{
+    background-image: url(../images.hd/logo\ puertosa.jpg);
+    background-position: left;
+    background-size: 100% auto;
+}
 .datos-meteorológicos{
     width: 60%;
     margin: auto;
@@ -44,11 +48,13 @@ header{
     margin-left: -9px;
 }
 .buscador{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
     float: right;
-    margin-right: 3%;
+    margin-right: 15%;
 }
 .subtitulo{
-    font-family: 'lato', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     width: 80%;
     margin: auto;
     display: flex;
@@ -59,8 +65,10 @@ header{
     font-weight: lighter;
 }
 .barra-superior-2{
-    font-family: 'lato', sans-serif ;
-    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: inherit;
+    font-size: 12px;
     color: white;
     background:transparent;
     padding: 10px;
@@ -68,7 +76,7 @@ header{
     display: flex;
 }
 .container-barra-2{
-    width: 25%;
+    width: 35%;
     margin-left: auto;
     display: flex;
     flex-direction: row;
@@ -80,7 +88,7 @@ header{
     border: 1px transparent;
 }   
 .Titulo-portada{
-    font-family: 'lato', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: bold;
     width: 80%;
@@ -89,18 +97,30 @@ header{
     color: white;
 }
 .container-b3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: white;
+    margin-top: 210px;
     margin-left: 80px;
     margin-right: 80px;
-    color: white;
-    margin-top: 230px;
 
 }
+.box-inicio{
+    border: 1px solid rgba(240, 240, 240, 0.15);
+    border-width: thin;
+    color: white;
+    padding: 3% 1%;
+    background: rgb(0, 168, 197);
+}
 .box{
-    padding: 10px;
-    border: 0.1px solid white;
+    border: 1px solid rgba(240, 240, 240, 0.15);
+    border-width: thin;
+    padding: 3% 1%;
+    color:  white;
 }
 .facts-row{
     width: 60%;
@@ -121,21 +141,43 @@ header{
 }
 .fact{
     display: grid;
-    grid-template-columns: 70px auto;
+    grid-template-columns: 77px auto;
     grid-template-rows: auto auto;
     column-gap: 1rem;
     flex: 33%;
     max-width: 33%;
 }
-.fact_icon{
+.fact_icon-1{
     grid-column: 1/2;
     grid-row: 1/-1;
-    height: 70px;
-    background-color: aquamarine; 
+    height: 75px;
+    background-size: 100% auto;
+    background-image: url(../images.hd/containericon.jpeg)
 }
-.fact_number,
+.fact_icon-2{
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    height: 75px;
+    background-size: 100% auto;
+    background-image: url(../images.hd/shipicon.jpeg)
+}
+.fact_icon-3{
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    height: 75px;
+    background-size: 100% auto;
+    background-image: url(../images.hd/planticon.jpeg)
+}
+.fact_number{
+    grid-column: 2/3;
+    color: rgba(17, 209, 235, 0.973);
+    font-size: 30px;
+    font-weight: inherit;
+}
 .fact_label{
 grid-column: 2/3;
+font-size: 12px;
+font-weight: lighter;
 }
 .Sector-3{
     width: auto;
@@ -146,7 +188,7 @@ grid-column: 2/3;
     background-size: 100% auto;
 }
 .sector-3-title{
-    font-family: 'lato', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: normal;
     text-align: center;
@@ -154,7 +196,7 @@ grid-column: 2/3;
     color: white;
 }
 .sector-3-texto{
-    font-family: 'lato', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     text-align: center;
     padding: 10px;
@@ -177,7 +219,7 @@ grid-column: 2/3;
     background-size: 100% auto;
 }
 .sector-4-title{
-    font-family: 'lato', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 18px;
     text-align: left;
@@ -195,7 +237,7 @@ grid-column: 2/3;
     background-size: 100% auto;
 }
 .sector-5-title{
-    font-family: 'lato', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 18px;
     text-align: left;
